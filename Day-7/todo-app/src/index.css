@@ -1,0 +1,27 @@
+*,
+*:aafter,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body,
+#root{
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+}
+
+.item span{
+  cursor: pointer;
+}
