@@ -11,10 +11,12 @@ const StudentList = () => {
     <>
       <h1>Student List</h1>
 
+      {/* {_id, id} */}
+      {/* UUID */}
       <ul>
-        {studentDetails.map((student) => {
+        {studentDetails.map((student, i) => {
           return (
-            <li>
+            <li key={`${student.name}-${student.grade}-${i}`}>
               <h2>Name: {student.name}</h2>
               <span>Grade: {student.grade}</span>
             </li>

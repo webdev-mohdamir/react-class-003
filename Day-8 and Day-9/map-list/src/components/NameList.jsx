@@ -14,7 +14,7 @@ const NameList = () => {
   //   </>
   // );
 
-  const names = ["Arun", "Prince", "Komal", "Jatin", "New Student"];
+  const names = ["Arun", "Prince", "Komal", "Jatin", "New Student", "Komal"];
 
   return (
     <>
@@ -24,8 +24,8 @@ const NameList = () => {
           return <li>Hello i am an item</li>;
         })} */}
 
-        {names.map((name) => {
-          return <li>{name}</li>;
+        {names.map((name, i) => {
+          return <li key={`${name}-${i}`}>{name}</li>;
         })}
       </ul>
     </>

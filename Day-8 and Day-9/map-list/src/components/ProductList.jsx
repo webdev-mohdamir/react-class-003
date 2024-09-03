@@ -27,9 +27,14 @@ const ProductList = () => {
         );
       })} */}
 
-      {products.map(({ name, description, price }) => {
+      {products.map(({ name, description, price }, i) => {
         return (
-          <ProductItem name={name} description={description} price={price} />
+          <ProductItem
+            key={`${i}`}
+            name={name}
+            description={description}
+            price={price}
+          />
         );
       })}
     </div>

@@ -1,6 +1,7 @@
 import NameList from "./components/NameList";
 import ProductList from "./components/ProductList";
 import StudentList from "./components/StudentList";
+import WinterList from "./components/WinterList";
 
 const App = () => {
   return (
@@ -8,7 +9,9 @@ const App = () => {
       {/* <NameList /> */}
       {/* <StudentList /> */}
 
-      <ProductList />
+      {/* <ProductList /> */}
+
+      <WinterList />
     </>
   );
 };
