@@ -9,17 +9,20 @@ React Router is a library that helps manage navigation in React applications. It
   - React Router enables your app’s components to sync with the browser's URL. This keeps the state and view in sync with specific routes (URLs).
 
 - ### Declarative Routing
-- Routes are declared in JSX, making them easy to reason about and maintain.
+
+  - Routes are declared in JSX, making them easy to reason about and maintain.
 
 - ### SPA Benefits
-- Unlike traditional web pages that reload with every navigation, React Router allows smooth navigation between pages without reloading, providing a fast user experience.
+
+  - Unlike traditional web pages that reload with every navigation, React Router allows smooth navigation between pages without reloading, providing a fast user experience.
 
 ## How React Router Works
 
 React Router uses two core components to define routes and control navigation:
 
 - ### BrowserRouter
-- The container that wraps your entire application, enabling routing.
+
+  - The container that wraps your entire application, enabling routing.
 
 - ### Route
-- Specifies the URL path and the component to render when that path is accessed.
+  - Specifies the URL path and the component to render when that path is accessed.
